@@ -27,13 +27,13 @@ if(!isLogin){
                 <div className="nav-access">
                 <NavLink
                     className={setActive}
-                    to="/SignUp"
+                    to="/signup"
                 >
                 Sign Up
                 </NavLink>
                 <NavLink
                     className={setActive}
-                    to="/SignIn"
+                    to="/signin"
                 >
                 Sign In
                 </NavLink>
@@ -52,7 +52,7 @@ return (<div className="navigation-box">
             </NavLink>
             <NavLink
                 className={setActive}
-                to="/Contacts"
+                to="/contacts"
             >
             Contacts
             </NavLink>

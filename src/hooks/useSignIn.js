@@ -14,7 +14,7 @@ export const useSignIn=()=>{
   const isLogin = useSelector(selectIsLogin)
   useEffect(() => {
     if(isLogin){
-      navigate("/Contacts", {replace: true})
+      navigate("/contacts", {replace: true})
     }
   }, [isLogin]);
 

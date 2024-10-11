@@ -40,9 +40,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/SignUp" element={<SignUp/>}/>
-        <Route path="/SignIn" element={<SignIn/>}/>
-        <Route path="/Contacts" element={            
+        <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/signin" element={<SignIn/>}/>
+        <Route path="/contacts" element={            
                                         <PrivateRoute
                                           redirectPath="/"
                                           Component={<Contacts/>}
