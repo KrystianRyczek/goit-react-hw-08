@@ -1,0 +1,35 @@
+.sign-in-box{
+    display: flex;
+    width: 1240px;
+    height: 500px;
+    margin: 0 auto 0 auto;
+}
+.sign-in-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    margin: auto;
+    width:400px;
+    height: 200px;
+    border: 3px solid lightgray;
+}
+.sign-in-input-box{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}
+.sign-in-input{
+    width: 192px;
+    font-family: Arial, sans-serif;
+}
+.sign-in-error-msg{
+    height:20px;
+    font-family: Arial, sans-serif;
+}
+.sign-in-buton{
+    width: 200px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}

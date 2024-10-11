@@ -1,0 +1,37 @@
+.search-form-box{
+    display: flex;
+    width: 1240px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.search-form-paragraf{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin:0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.search-contact-form{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin: 0 0 0 auto;
+}
+.search-contact-input-box{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}
+.search-contact-input{
+    width: 192px;
+    font-family: Arial, sans-serif;
+}
+.search-contact-buton{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

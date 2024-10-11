@@ -1,0 +1,16 @@
+.root{
+    margin: auto
+}
+.home-page-box{
+    width: 1240px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    border-bottom: 3px solid lightgray;
+}
+.home-page-header{
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+}

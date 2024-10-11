@@ -1,0 +1,35 @@
+.add-contact-box{
+    display: flex;
+    width: 1240px;
+    height: 250px;
+    margin: 0 auto 0 auto;
+}
+.add-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    margin: auto;
+    width:400px;
+    height: 200px;
+    border: 3px solid lightgray;
+}
+.add-contact-input-box{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}
+.add-contact-input{
+    width: 192px;
+    font-family: Arial, sans-serif;
+}
+.add-contact-error-msg{
+    height:20px;
+    font-family: Arial, sans-serif;
+}
+.add-contact-buton{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

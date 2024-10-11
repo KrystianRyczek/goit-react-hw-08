@@ -1,0 +1,33 @@
+.sign-up-box{
+    display: flex;
+    width: 1240px;
+    height: 500px;
+    margin: 0 auto 0 auto;
+}
+.sign-up-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    margin: auto;
+    width:400px;
+    height: 300px;
+    border: 3px solid lightgray;
+}
+.sign-up-input-box{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}
+.sign-up-input{
+    width: 193px;
+}
+.sign-up-error-msg{
+    height:20px;
+    font-family: Arial, sans-serif;
+}
+.sign-up-buton{
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: Arial, sans-serif;
+}
