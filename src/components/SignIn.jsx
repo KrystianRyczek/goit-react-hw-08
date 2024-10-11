@@ -1,11 +1,8 @@
 import {Field, Form, Formik, ErrorMessage} from "formik";
 import{useSignIn} from '../hooks/useSignIn.js'
 
-export default function SignIn(){
+export default function SignInComponent(){
     const {Shema, signIn} = useSignIn()
-
-
-
 
     return      (<div className="sign-in-box">
                     <Formik 
